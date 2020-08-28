@@ -2,7 +2,7 @@
 ## some Jupyter notebooks 
 
 # this is always the same, regardless of the user
-cd /home/jovyan
+cd /home/jovyan/work
 
 # git reflog requires a name and email if user is not in passwd
 # even if you're only cloning
@@ -11,8 +11,8 @@ export GIT_COMMITTER_EMAIL=anon@localhost
 
 git clone https://github.com/balazsan/RStudio.git
 
-# clean directory
-rmdir work
+## clean directory
+#rmdir work
 
 # install keras R-package
 #R -e 'install.packages("vioplot", repo="http://cran.rstudio.com/")'             # check that installation works
