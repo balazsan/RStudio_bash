@@ -9,7 +9,7 @@ cd /home/jovyan
 export GIT_COMMITTER_NAME=anonymous
 export GIT_COMMITTER_EMAIL=anon@localhost
 
-git clone https://github.com/balazsan/ML_with_R.git
+git clone https://github.com/balazsan/RStudio.git
 
 # clean directory
 rmdir work
