@@ -11,6 +11,5 @@ export GIT_COMMITTER_EMAIL=anon@localhost
 
 git clone https://github.com/balazsan/RStudio.git
 
-# install keras R-package
-#R -e 'install.packages("vioplot", repo="http://cran.rstudio.com/")'             # check that installation works
-#R -e 'install.packages("devtools", repo="http://cran.rstudio.com/")'            # get new version
+# install R-package(s)
+R -e 'install.packages("plotly", repo="http://cran.rstudio.com/")'
