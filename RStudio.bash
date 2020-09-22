@@ -2,7 +2,7 @@
 ## some Jupyter notebooks 
 
 # this is always the same, regardless of the user
-cd /home/jovyan/work
+cd /home/rstudio
 
 # git reflog requires a name and email if user is not in passwd
 # even if you're only cloning
