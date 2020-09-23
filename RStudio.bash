@@ -10,4 +10,5 @@ export GIT_COMMITTER_NAME=anonymous
 export GIT_COMMITTER_EMAIL=anon@localhost
 
 git clone https://github.com/balazsan/RStudio.git
+# changing ownership of cloned files otherwise unable to save edits
 chown -R rstudio:rstudio RStudio
