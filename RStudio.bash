@@ -10,6 +10,4 @@ export GIT_COMMITTER_NAME=anonymous
 export GIT_COMMITTER_EMAIL=anon@localhost
 
 git clone https://github.com/balazsan/RStudio.git
-
-# install R-package(s)
-R -e 'install.packages("plotly", repo="http://cran.rstudio.com/")'
+chown -R rstudio:rstudio RStudio
